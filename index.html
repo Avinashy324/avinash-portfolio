@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Avinash Yarukala — Creative Developer, Cloud & AI Architect</title>
+  <meta name="description" content="Portfolio of Avinash Yarukala, B.Tech Computer Science undergraduate, AWS & GCP Certified Cloud and AI Practitioner. Specializing in full-stack dev, cloud architecture, and intelligent systems.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="Avinash Yarukala — Creative Developer, Cloud & AI Architect">
+  <meta property="og:description" content="AWS & GCP Certified Developer crafting modern full-stack web applications and intelligent systems.">
+  <meta property="og:type" content="website">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Particle & Grid Canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- SITE HEADER -->
+  <header class="site-head" id="header">
+    <div class="site-head__container">
+      <!-- logo name highlight -->
+      <div class="sb-logo-name">
+        <a href="#header" aria-label="Avinash Yarukala Home">
+          <span class="highlight-name">AVINASH YARUKALA</span>
+        </a>
+      </div>
+      
+      <!-- live console -->
+      <div class="sb-console" role="presentation" id="status-console">
+        <span class="console-line">SYS_STATUS: ACTIVE</span>
+        <span class="console-line">LOC: HYDERABAD, IN<span class="caret"></span></span>
+      </div>
+      
+      <!-- availability badge -->
+      <aside class="sb-availability">
+        <p>Coding globally from Hyderabad.</p>
+        <p><a href="#contact">Available for internships & collaborations →</a></p>
+      </aside>
+
+      <!-- main menu -->
+      <nav class="sb-menu" aria-label="Main Navigation">
+        <ul class="sb__list">
+          <li class="sb__item">
+            <a href="#about" class="sb__link"><span class="sb__text">About</span></a>
+          </li>
+          <li class="sb__item">
+            <a href="#projects" class="sb__link"><span class="sb__text">Projects</span></a>
+          </li>
+          <li class="sb__item">
+            <a href="#skills" class="sb__link"><span class="sb__text">Skills</span></a>
+          </li>
+          <li class="sb__item">
+            <a href="#contact" class="sb__link"><span class="sb__text">Contact</span></a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- contrast switcher -->
+      <button class="sb-contrast" id="contrast-toggle" aria-label="Toggle Contrast Theme">
+        <!-- Half Moon / Sun SVG -->
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+
+      <!-- social icons -->
+      <ul class="sb-socials">
+        <li>
+          <a href="https://github.com/Avinashy324" target="_blank" rel="noopener" aria-label="GitHub Profile">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn Profile">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="s-hero">
+    <div class="s-hero__canvas-container">
+      <canvas id="hero-waves" class="s-hero__canvas-bg"></canvas>
+      <div class="s-hero__intro">
+        <span class="s-hero__badge">Avinash Yarukala • Portfolio v1.0</span>
+        <h2 class="s-hero__bio">
+          I am a B.Tech Computer Science undergraduate specializing in building secure full-stack applications, robust cloud environments, and citation-backed AI integrations.
+        </h2>
+        <a href="#projects" class="s-hero__cta">
+          Explore Projects
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+    
+    <!-- Kinetic Marquee Footer -->
+    <div class="s-hero__footer">
+      <div class="s-hero__title" aria-label="Creative Full Stack Cloud Architect AI Developer">
+        <div class="s-hero__title-scroll-container">
+          <span class="s-hero__title-word">CLOUD ARCHITECT</span>
+          <span class="s-hero__title-star"></span>
+          <span class="s-hero__title-word active">AI INTEGRATIONS</span>
+          <span class="s-hero__title-star"></span>
+          <span class="s-hero__title-word">FULL STACK DEVELOPER</span>
+          <span class="s-hero__title-star"></span>
+          <span class="s-hero__title-word">CLOUD ARCHITECT</span>
+          <span class="s-hero__title-star"></span>
+          <span class="s-hero__title-word active">AI INTEGRATIONS</span>
+          <span class="s-hero__title-star"></span>
+          <span class="s-hero__title-word">FULL STACK DEVELOPER</span>
+          <span class="s-hero__title-star"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BINARY SEPARATOR 1 -->
+  <div class="a-separator" id="separator-1">
+    <div class="a__triangle a__triangle--left"></div>
+    <div class="a__binaries">
+      <span class="a__code">01000001 01010110 01001001 01001110 01000001 01010011 01001000</span>
+      <span class="a__stripes">////////////////////////////////////////////</span>
+      <span class="a__code">yarukalaavinash@gmail.com</span>
+      <span class="a__stripes">////////////////////////////////////////////</span>
+      <span class="a__code">AWS & GCP CERTIFIED</span>
+    </div>
+    <div class="a__triangle a__triangle--right"></div>
+  </div>
+
+  <!-- ABOUT SECTION -->
+  <section class="s-about" id="about">
+    <div class="s-about__inner">
+      <div class="s-about__header">ABOUT.exe</div>
+      <div class="s-about__content">
+        <h3 class="s-about__text">
+          Pursuing B.Tech in CSE at <a href="https://kluniversity.in" target="_blank" rel="noopener">KLH University</a> (CGPA 8.95). 
+          Fascinated by high-impact engineering, containerized cloud architecture, and real-time citation-backed systems.
+        </h3>
+        <p class="s-about__text--small">
+          I craft clean code, design structured cloud systems, and integrate generative LLMs. Having won HackWithHyderabad 2024, I have experience working under high pressure, taking system designs from conception to Netlify production deployments.
+        </p>
+      </div>
+      
+      <!-- Accomplishments Brutalist Grid -->
+      <div class="s-about__grid">
+        <div class="s-about__cell s-about__cell--double-w">
+          <span class="s-about__cell-num">01/EDUCATION</span>
+          <h4 class="s-about__cell-title">B.Tech in CSE</h4>
+          <span class="s-about__cell-subtitle">KLH University • CGPA: 8.95 / 10</span>
+        </div>
+        <div class="s-about__cell">
+          <span class="s-about__cell-num">02/AI</span>
+          <h4 class="s-about__cell-title">AI Practitioner</h4>
+          <span class="s-about__cell-subtitle">AWS Certified</span>
+        </div>
+        <div class="s-about__cell">
+          <span class="s-about__cell-num">03/CLOUD</span>
+          <h4 class="s-about__cell-title">Cloud Practitioner</h4>
+          <span class="s-about__cell-subtitle">AWS Certified</span>
+        </div>
+        <div class="s-about__cell">
+          <span class="s-about__cell-num">04/CONTAINER</span>
+          <h4 class="s-about__cell-title">Kubernetes & Docker</h4>
+          <span class="s-about__cell-subtitle">Duke University Cert</span>
+        </div>
+        <div class="s-about__cell s-about__cell--double-w">
+          <span class="s-about__cell-num">05/HACKATHON</span>
+          <h4 class="s-about__cell-title">HackWithHyderabad Winner</h4>
+          <span class="s-about__cell-subtitle">24H AI Research Tool MVP Build</span>
+        </div>
+        <div class="s-about__cell">
+          <span class="s-about__cell-num">06/OS</span>
+          <h4 class="s-about__cell-title">Linux SysOps</h4>
+          <span class="s-about__cell-subtitle">Certified Foundations</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BINARY SEPARATOR 2 (PROJECTS in binary) -->
+  <div class="a-separator" id="separator-2">
+    <div class="a__triangle a__triangle--left"></div>
+    <div class="a__binaries">
+      <span class="a__code">01010000 01010010 01001111 01001010 01000101 01000011 01010100 01010011</span>
+      <span class="a__stripes">////////////////////////////////////////////////</span>
+      <span class="a__code">PROJECT SHOWCASE</span>
+      <span class="a__stripes">////////////////////////////////////////////////</span>
+      <span class="a__code">60FPS 3D TRANSFORMATIONS</span>
+    </div>
+    <div class="a__triangle a__triangle--right"></div>
+  </div>
+
+  <!-- PROJECTS SECTION -->
+  <section class="s-projects" id="projects">
+    <div class="s-projects__header">
+      <h3 class="s-projects__title">SELECTED PROJECTS</h3>
+    </div>
+    
+    <div class="s-projects__container">
+      
+      <!-- Project 1: Smart Research Assistant -->
+      <article class="a-project" id="proj-research">
+        <div class="a-project__visual-wrapper">
+          <div class="a-project__visual">
+            <img src="assets/research-assistant.png" alt="Smart Research Assistant Dashboard" loading="lazy">
+            <div class="a-project__visual-overlay"></div>
+          </div>
+        </div>
+        <div class="a-project__content">
+          <span class="a-project__code">#SR-2024 / HACKATHON WINNER</span>
+          <h4 class="a-project__name">Smart Research Assistant</h4>
+          <p class="a-project__desc">
+            An AI-powered research platform generating structured, citation-backed intelligence reports from live web crawls and uploaded files (PDF/DOCX). Built under high time-pressure during HackWithHyderabad 2024.
+          </p>
+          <ul class="a-project__tags">
+            <li class="a-project__tag">JavaScript</li>
+            <li class="a-project__tag">Tailwind CSS</li>
+            <li class="a-project__tag">REST API</li>
+            <li class="a-project__tag">Netlify</li>
+          </ul>
+          <a href="https://github.com/Avinashy324" target="_blank" rel="noopener" class="a-project__link">
+            View Source Code
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- Project 2: MoodSync -->
+      <article class="a-project" id="proj-moodsync">
+        <div class="a-project__visual-wrapper">
+          <div class="a-project__visual">
+            <img src="assets/moodsync.png" alt="MoodSync App Playlist Interface" loading="lazy">
+            <div class="a-project__visual-overlay"></div>
+          </div>
+        </div>
+        <div class="a-project__content">
+          <span class="a-project__code">#MS-2024 / PERSONAL INITIATIVE</span>
+          <h4 class="a-project__name">MoodSync</h4>
+          <p class="a-project__desc">
+            A full-stack application that infers user mood from text inputs and dynamically generates personalized playlists streamed via the Spotify Web API. Incorporates smooth OAuth 2.0 flow.
+          </p>
+          <ul class="a-project__tags">
+            <li class="a-project__tag">React</li>
+            <li class="a-project__tag">Node.js</li>
+            <li class="a-project__tag">Spotify API</li>
+            <li class="a-project__tag">OAuth 2.0</li>
+          </ul>
+          <a href="https://github.com/Avinashy324" target="_blank" rel="noopener" class="a-project__link">
+            View Source Code
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- Project 3: Online Forum Application -->
+      <article class="a-project" id="proj-forum">
+        <div class="a-project__visual-wrapper">
+          <div class="a-project__visual">
+            <img src="assets/online-forum.png" alt="Online Forum Brutalist Grid Layout" loading="lazy">
+            <div class="a-project__visual-overlay"></div>
+          </div>
+        </div>
+        <div class="a-project__content">
+          <span class="a-project__code">#OF-2023 / ACADEMIC BUILD</span>
+          <h4 class="a-project__name">Brutalist Online Forum</h4>
+          <p class="a-project__desc">
+            A full-featured discussion community supporting authentication, nested recursive comment trees, role-based moderator controls, and secure transactional SQL schema designs.
+          </p>
+          <ul class="a-project__tags">
+            <li class="a-project__tag">HTML/CSS</li>
+            <li class="a-project__tag">JavaScript</li>
+            <li class="a-project__tag">SQL Database</li>
+            <li class="a-project__tag">Relational Design</li>
+          </ul>
+          <a href="https://github.com/Avinashy324" target="_blank" rel="noopener" class="a-project__link">
+            View Source Code
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- Project 4: Criminal Apprehension Drone (CAD) -->
+      <article class="a-project" id="proj-drone">
+        <div class="a-project__visual-wrapper">
+          <div class="a-project__visual">
+            <img src="assets/drone-concept.png" alt="Surveillance Drone Telemetry HUD" loading="lazy">
+            <div class="a-project__visual-overlay"></div>
+          </div>
+        </div>
+        <div class="a-project__content">
+          <span class="a-project__code">#CD-2023 / SYSTEM SCHEMATICS</span>
+          <h4 class="a-project__name">Apprehension Drone (CAD)</h4>
+          <p class="a-project__desc">
+            A comprehensive system-architecture concept design integrating computer vision overlays, GPS telemetry tracking, aerial localization pathways, and complex privacy constraints.
+          </p>
+          <ul class="a-project__tags">
+            <li class="a-project__tag">System Design</li>
+            <li class="a-project__tag">Computer Vision</li>
+            <li class="a-project__tag">GPS Tracking</li>
+            <li class="a-project__tag">Architecture</li>
+          </ul>
+          <a href="https://github.com/Avinashy324" target="_blank" rel="noopener" class="a-project__link">
+            Explore System Architecture
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- SECONDARY BINARY SEPARATOR 3 -->
+  <div class="a-separator style--secondary" id="separator-3">
+    <div class="a__triangle a__triangle--left"></div>
+    <div class="a__binaries">
+      <span class="a__code">01010100 01000101 01000011 01001000 01010011 01010100 01000001 01000011 01001011</span>
+      <span class="a__stripes">////////////////////////////////////////////////</span>
+      <span class="a__code">SKILLS INVENTORY</span>
+      <span class="a__stripes">////////////////////////////////////////////////</span>
+      <span class="a__code">AWS & GCP ARCHITECT</span>
+    </div>
+    <div class="a__triangle a__triangle--right"></div>
+  </div>
+
+  <!-- SKILLS SECTION -->
+  <section class="s-skills" id="skills">
+    <div class="s-skills__container">
+      <h3 class="s-skills__title">TECH INVENTORY</h3>
+      <div class="s-skills__grid">
+        
+        <!-- Languages & OS -->
+        <div class="s-skills__card">
+          <!-- Code/Tech Icon -->
+          <svg class="s-skills__card-icon" viewBox="0 0 24 24">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+          <h4 class="s-skills__card-title">Languages & OS</h4>
+          <ul class="s-skills__list">
+            <li><span>Java</span></li>
+            <li><span>Python</span></li>
+            <li><span>JavaScript (ES6+)</span></li>
+            <li><span>C Language</span></li>
+            <li><span>Linux / Shell</span></li>
+          </ul>
+        </div>
+
+        <!-- Cloud & DevOps -->
+        <div class="s-skills__card">
+          <!-- Cloud Icon -->
+          <svg class="s-skills__card-icon" viewBox="0 0 24 24">
+            <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 1-9.9z"></path>
+          </svg>
+          <h4 class="s-skills__card-title">Cloud & DevOps</h4>
+          <ul class="s-skills__list">
+            <li><span>AWS Cloud & AI</span></li>
+            <li><span>GCP Infrastructure</span></li>
+            <li><span>Docker Containers</span></li>
+            <li><span>Kubernetes Orchestration</span></li>
+            <li><span>Git / GitHub CI/CD</span></li>
+          </ul>
+        </div>
+
+        <!-- Web & Databases -->
+        <div class="s-skills__card">
+          <!-- Database Icon -->
+          <svg class="s-skills__card-icon" viewBox="0 0 24 24">
+            <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+            <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+            <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path>
+          </svg>
+          <h4 class="s-skills__card-title">Web & Databases</h4>
+          <ul class="s-skills__list">
+            <li><span>React.js</span></li>
+            <li><span>Node.js</span></li>
+            <li><span>Tailwind CSS</span></li>
+            <li><span>SQL (PostgreSQL/MySQL)</span></li>
+            <li><span>MongoDB (NoSQL)</span></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="s-contact" id="contact">
+    <div class="s-contact__container">
+      <h3 class="s-contact__title">GET IN TOUCH</h3>
+      <p class="s-contact__desc">
+        Interested in building something beautiful together? I am looking for software engineering internships and collaborative system challenges.
+      </p>
+      
+      <a href="mailto:yarukalaavinash@gmail.com" class="s-contact__email" id="email-link">yarukalaavinash@gmail.com</a>
+      
+      <ul class="s-contact__links">
+        <li><a href="https://linkedin.com" target="_blank" rel="noopener" class="s-contact__link">LinkedIn</a></li>
+        <li><a href="https://github.com/Avinashy324" target="_blank" rel="noopener" class="s-contact__link">GitHub</a></li>
+        <li><a href="#header" class="s-contact__link">Resume</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-foot">
+    <span class="highlight-name" style="font-size: 0.8rem; padding: 0.3rem 0.8rem;">AY</span>
+    <div class="site-foot__copyright">
+      &copy; 2026 AVINASH YARUKALA. ALL RIGHTS RESERVED.
+    </div>
+    <div class="site-foot__credits">
+      Inspired by <a href="https://wodniack.dev" target="_blank" rel="noopener">wodniack.dev</a> • Coded with care.
+    </div>
+  </footer>
+
+  <!-- Javascript File -->
+  <script src="app.js"></script>
+</body>
+</html>
