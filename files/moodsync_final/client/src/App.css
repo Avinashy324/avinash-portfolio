@@ -1,0 +1,17 @@
+/* Glass card */
+.glass {
+  background: rgba(255,255,255,0.03);
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.06);
+  backdrop-filter: blur(8px);
+  padding: 16px;
+}
+
+/* Neon glow */
+.neon {
+  text-shadow: 0 0 8px rgba(99,102,241,0.6), 0 0 20px rgba(139,92,246,0.25);
+}
+
+/* Floating animation for album art */
+@keyframes floaty { 0%{ transform: translateY(0);}50%{ transform: translateY(-6px);}100%{ transform: translateY(0);} }
+.floaty { animation: floaty 3s ease-in-out infinite; }

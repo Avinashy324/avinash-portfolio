@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: moodsync-backend
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    envVars:
+      - key: SPOTIFY_CLIENT_ID
+        value: 8c87d19e52734f2b9914269964a09b21
+      - key: SPOTIFY_CLIENT_SECRET
+        sync: false
+      - key: SPOTIFY_REDIRECT_URI
+        value: https://moodsync-backend.onrender.com/auth/callback
+      - key: WEATHER_API_KEY
+        value: e537db0dc1a0b4298651961d6f4b00a5
+      - key: SESSION_SECRET
+        value: supersecretstring123
+      - key: PORT
+        value: 4000
