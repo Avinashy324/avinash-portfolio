@@ -905,6 +905,69 @@ html.theme-contrast .site-head {
   pointer-events: none;
 }
 
+.a-project__visual--terminal-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--color-bg);
+  border: var(--border-style);
+  padding: 1.5rem;
+  font-family: var(--font-family-mono);
+  box-shadow: inset 0 0 30px rgba(var(--color-accent-rgb), 0.05);
+}
+
+.a-project__terminal-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dashed var(--color-border);
+  padding-bottom: 0.8rem;
+  margin-bottom: 1rem;
+  font-size: 0.7rem;
+  color: var(--color-accent);
+  letter-spacing: 0.1em;
+}
+
+.a-project__terminal-dots {
+  display: flex;
+  gap: 6px;
+}
+
+.a-project__terminal-dots span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--color-muted);
+  opacity: 0.5;
+}
+
+.a-project__terminal-dots span:first-child {
+  background-color: var(--color-accent);
+  opacity: 1;
+}
+
+.a-project__terminal-body {
+  font-size: 0.75rem;
+  line-height: 1.8;
+  color: var(--color-text);
+}
+
+.a-project__terminal-line {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dotted rgba(var(--color-accent-rgb), 0.15);
+  padding: 0.2rem 0;
+}
+
+.a-project__terminal-line span:first-child {
+  color: var(--color-muted);
+}
+
+.a-project__terminal-line span:last-child {
+  color: var(--color-accent);
+  font-weight: bold;
+}
+
 .a-project__visual-overlay {
   position: absolute;
   top: 0;

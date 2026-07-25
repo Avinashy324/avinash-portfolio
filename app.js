@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
     "SYS_STATUS: RUNNING",
     "USER: AVINASH_Y",
     "DEG: B.TECH CSE",
-    "CGPA: 8.95 / 10",
+    "CGPA: 8.9 / 10",
     "AWS_AI: CERTIFIED",
     "GCP_INFRA: CERTIFIED",
     "LOC: HYDERABAD, IN",
